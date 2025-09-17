@@ -12,7 +12,6 @@ str(life_expectancy)
 
 summary(life_expectancy)
 
-
 # Variables de base
 # Country :                                                                                                         under study	Country
 # year	                                                                                                            Year
