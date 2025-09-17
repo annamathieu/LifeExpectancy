@@ -23,10 +23,9 @@ summary(life_expectancy)
 # Prevalence of thinness among people 19 years old in percentage	:                                                 thinness 1-19 years
 # The ratio of government medical-health expenses to total government expenses in percentage :	                    Total expenditure
 
-
 # The number of deaths caused by AIDS of the last 4-year-olds who were born alive per 1000 people :	                HIV/AIDS
-# The number of infant deaths per 1000 people :	                                                                    infant deaths
 # The number of deaths of people under 5 years old per 1000 people	                                                  under-five deaths
+# The number of infant deaths per 1000 people :	                                                                    infant deaths
 # The number of reported measles cases per 1000 people :	                                                          Measles
 
 # Liters of alcohol consumption among people over 15 years old :	                                                  Alcohol
