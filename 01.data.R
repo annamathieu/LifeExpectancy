@@ -9,3 +9,5 @@ str(life_expectancy)
 
 summary(life_expectancy)
 
+# Vérification du type des variables 
+life_expectancy$Country <- as.factor(life_expectancy$Country)
