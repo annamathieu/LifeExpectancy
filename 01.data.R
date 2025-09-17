@@ -41,3 +41,27 @@ summary(life_expectancy)
 # Vérification du type des variables 
 life_expectancy$Country <- as.factor(life_expectancy$Country)
 
+life_expectancy <- life_expectancy %>% rename(
+  pays = Country,
+  annee = Year,
+  statut = Status,
+  p_hepatiteb = Hepatitis.B,
+  p_polio = Polio,
+  p_diphtherie = Diphtheria,
+  c_rougeole = Measles,
+  d_vih = HIV.AIDS,
+  d_bebe = infant.deaths,
+  d_enfant = under.five.deaths,
+  p_maigreur = thinness..1.19.years,
+  p_depense = Total.expenditure,
+  pib = GDP,
+  imc = BMI,
+  alcool = Alcohol,
+  a_ecole = Schooling,
+  habitant = Population,
+  edv = Life.expectancy
+)
+
+str(life_expectancy)
+
+summary(life_expectancy)
