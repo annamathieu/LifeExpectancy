@@ -39,9 +39,6 @@ summary(life_expectancy)
 # Transformation des variables 
 
 
-# Vérification du type des variables 
-life_expectancy$Country <- as.factor(life_expectancy$Country)
-life_expectancy$statut <- as.factor(life_expectancy$statut)
 
 
 # Nom des variables
@@ -65,6 +62,11 @@ life_expectancy <- life_expectancy %>% rename(
   habitant = Population,
   edv = Life.expectancy
 )
+
+
+# Vérification du type des variables 
+life_expectancy$pays <- as.factor(life_expectancy$pays)
+life_expectancy$statut <- as.factor(life_expectancy$statut)
 
 str(life_expectancy)
 
