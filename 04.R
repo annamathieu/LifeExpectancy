@@ -64,11 +64,11 @@ life_expectancy <- life_expectancy %>% rename(
   edv = Life.expectancy
 )
 
+# Vérification du type des variables 
+life_expectancy$pays <- as.factor(life_expectancy$pays)
+life_expectancy$statut <- as.factor(life_expectancy$statut)
+
 str(life_expectancy)
 
 summary(life_expectancy)
-
-###  
-
-
 
