@@ -33,4 +33,20 @@ ggplot(
 
 
 # Liens entre variable ayant des données manquantes 
+install.packages("naniar")
+library(naniar)
 
+# Visualize missing values
+vis_miss(life_expectancy) 
+# association des NA par variable 
+
+
+
+install.packages("VIM")
+library(VIM)
+
+res_aggr <- aggr(life_expectancy, col = c("skyblue","orange"),
+     numbers=TRUE, sortVars=TRUE, cex.axis=.8,
+     combined = F)
+
+summary(res_aggr)
